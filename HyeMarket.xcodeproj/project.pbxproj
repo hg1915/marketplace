@@ -13,9 +13,24 @@
 		3E7A9F7027B20E7B004FB01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7A9F6E27B20E7B004FB01D /* Main.storyboard */; };
 		3E7A9F7227B20E81004FB01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7A9F7127B20E81004FB01D /* Assets.xcassets */; };
 		3E7A9F7527B20E81004FB01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7A9F7327B20E81004FB01D /* LaunchScreen.storyboard */; };
+		3E7A9F7D27B21317004FB01D /* HyeMarketTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A9F7C27B21317004FB01D /* HyeMarketTabBarController.swift */; };
+		3E7A9F7F27B21392004FB01D /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A9F7E27B21392004FB01D /* CategoriesVC.swift */; };
+		3E7A9F8127B2139F004FB01D /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A9F8027B2139F004FB01D /* SearchVC.swift */; };
+		3E7A9F8627B2180E004FB01D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A9F8527B2180D004FB01D /* CategoryCell.swift */; };
+		3E7A9F8827B21B0A004FB01D /* HyeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A9F8727B21B09004FB01D /* HyeLabel.swift */; };
+		3E7A9F8A27B22434004FB01D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E7A9F8927B22434004FB01D /* GoogleService-Info.plist */; };
+		3EAA521127B22B3F00D33B69 /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAA521027B22B3F00D33B69 /* FirebaseReference.swift */; };
+		3EAA521427B22C2100D33B69 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAA521327B22C2100D33B69 /* Category.swift */; };
+		3EAA521727B247C000D33B69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAA521627B247C000D33B69 /* Constants.swift */; };
+		3EAA521927B24E5E00D33B69 /* HyeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAA521827B24E5E00D33B69 /* HyeImageView.swift */; };
+		3EAA521B27B2520500D33B69 /* CategoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAA521A27B2520500D33B69 /* CategoryDetailsVC.swift */; };
+		3EAA521D27B2531500D33B69 /* CategoryDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAA521C27B2531500D33B69 /* CategoryDetailCell.swift */; };
+		3EAA521F27B2593700D33B69 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAA521E27B2593700D33B69 /* Item.swift */; };
+		8BDBF16D714A9512812C5027 /* Pods_HyeMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984BD37D83EEC22B892178F4 /* Pods_HyeMarket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16A5B8AC75A7893CEC6F8948 /* Pods-HyeMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyeMarket.release.xcconfig"; path = "Target Support Files/Pods-HyeMarket/Pods-HyeMarket.release.xcconfig"; sourceTree = "<group>"; };
 		3E7A9F6527B20E7B004FB01D /* HyeMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyeMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7A9F6827B20E7B004FB01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7A9F6A27B20E7B004FB01D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,21 @@
 		3E7A9F7127B20E81004FB01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7A9F7427B20E81004FB01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E7A9F7627B20E81004FB01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7A9F7C27B21317004FB01D /* HyeMarketTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyeMarketTabBarController.swift; sourceTree = "<group>"; };
+		3E7A9F7E27B21392004FB01D /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		3E7A9F8027B2139F004FB01D /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		3E7A9F8527B2180D004FB01D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		3E7A9F8727B21B09004FB01D /* HyeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyeLabel.swift; sourceTree = "<group>"; };
+		3E7A9F8927B22434004FB01D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3EAA521027B22B3F00D33B69 /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		3EAA521327B22C2100D33B69 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3EAA521627B247C000D33B69 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3EAA521827B24E5E00D33B69 /* HyeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyeImageView.swift; sourceTree = "<group>"; };
+		3EAA521A27B2520500D33B69 /* CategoryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsVC.swift; sourceTree = "<group>"; };
+		3EAA521C27B2531500D33B69 /* CategoryDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailCell.swift; sourceTree = "<group>"; };
+		3EAA521E27B2593700D33B69 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		984BD37D83EEC22B892178F4 /* Pods_HyeMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyeMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4B2BD12AD0F0D7FAB4051A /* Pods-HyeMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyeMarket.debug.xcconfig"; path = "Target Support Files/Pods-HyeMarket/Pods-HyeMarket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDBF16D714A9512812C5027 /* Pods_HyeMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B22E6396CDF2233A21B4D94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B2BD12AD0F0D7FAB4051A /* Pods-HyeMarket.debug.xcconfig */,
+				16A5B8AC75A7893CEC6F8948 /* Pods-HyeMarket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3E7A9F5C27B20E7B004FB01D = {
 			isa = PBXGroup;
 			children = (
 				3E7A9F6727B20E7B004FB01D /* HyeMarket */,
 				3E7A9F6627B20E7B004FB01D /* Products */,
+				1B22E6396CDF2233A21B4D94 /* Pods */,
+				ACD33752E04DB7CA52744330 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,76 @@
 		3E7A9F6727B20E7B004FB01D /* HyeMarket */ = {
 			isa = PBXGroup;
 			children = (
+				3E7A9F8927B22434004FB01D /* GoogleService-Info.plist */,
 				3E7A9F6827B20E7B004FB01D /* AppDelegate.swift */,
-				3E7A9F6A27B20E7B004FB01D /* SceneDelegate.swift */,
+				3EAA521527B247A600D33B69 /* Helpers */,
+				3EAA521227B22C1100D33B69 /* Model */,
+				3E7A9F8227B213A4004FB01D /* Screens */,
 				3E7A9F6C27B20E7B004FB01D /* ViewController.swift */,
+				3E7A9F8327B21420004FB01D /* CustomViews */,
 				3E7A9F6E27B20E7B004FB01D /* Main.storyboard */,
+				3E7A9F6A27B20E7B004FB01D /* SceneDelegate.swift */,
 				3E7A9F7127B20E81004FB01D /* Assets.xcassets */,
+				3E7A9F8427B217CE004FB01D /* Cells */,
 				3E7A9F7327B20E81004FB01D /* LaunchScreen.storyboard */,
 				3E7A9F7627B20E81004FB01D /* Info.plist */,
 			);
 			path = HyeMarket;
+			sourceTree = "<group>";
+		};
+		3E7A9F8227B213A4004FB01D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A9F7E27B21392004FB01D /* CategoriesVC.swift */,
+				3E7A9F8027B2139F004FB01D /* SearchVC.swift */,
+				3EAA521A27B2520500D33B69 /* CategoryDetailsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3E7A9F8327B21420004FB01D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A9F7C27B21317004FB01D /* HyeMarketTabBarController.swift */,
+				3E7A9F8727B21B09004FB01D /* HyeLabel.swift */,
+				3EAA521827B24E5E00D33B69 /* HyeImageView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3E7A9F8427B217CE004FB01D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A9F8527B2180D004FB01D /* CategoryCell.swift */,
+				3EAA521C27B2531500D33B69 /* CategoryDetailCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EAA521227B22C1100D33B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EAA521327B22C2100D33B69 /* Category.swift */,
+				3EAA521E27B2593700D33B69 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EAA521527B247A600D33B69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3EAA521027B22B3F00D33B69 /* FirebaseReference.swift */,
+				3EAA521627B247C000D33B69 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ACD33752E04DB7CA52744330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984BD37D83EEC22B892178F4 /* Pods_HyeMarket.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +177,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E7A9F7927B20E81004FB01D /* Build configuration list for PBXNativeTarget "HyeMarket" */;
 			buildPhases = (
+				7609BDA4825D63D7856BE41E /* [CP] Check Pods Manifest.lock */,
 				3E7A9F6127B20E7B004FB01D /* Sources */,
 				3E7A9F6227B20E7B004FB01D /* Frameworks */,
 				3E7A9F6327B20E7B004FB01D /* Resources */,
+				778157EB9C057B11D83B61F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = HyeMarket;
+			packageProductDependencies = (
+			);
 			productName = HyeMarket;
 			productReference = 3E7A9F6527B20E7B004FB01D /* HyeMarket.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +218,8 @@
 				Base,
 			);
 			mainGroup = 3E7A9F5C27B20E7B004FB01D;
+			packageReferences = (
+			);
 			productRefGroup = 3E7A9F6627B20E7B004FB01D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7A9F8A27B22434004FB01D /* GoogleService-Info.plist in Resources */,
 				3E7A9F7527B20E81004FB01D /* LaunchScreen.storyboard in Resources */,
 				3E7A9F7227B20E81004FB01D /* Assets.xcassets in Resources */,
 				3E7A9F7027B20E7B004FB01D /* Main.storyboard in Resources */,
@@ -133,14 +243,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7609BDA4825D63D7856BE41E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyeMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778157EB9C057B11D83B61F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyeMarket/Pods-HyeMarket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyeMarket/Pods-HyeMarket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyeMarket/Pods-HyeMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E7A9F6127B20E7B004FB01D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7A9F8127B2139F004FB01D /* SearchVC.swift in Sources */,
+				3EAA521727B247C000D33B69 /* Constants.swift in Sources */,
+				3EAA521427B22C2100D33B69 /* Category.swift in Sources */,
+				3EAA521127B22B3F00D33B69 /* FirebaseReference.swift in Sources */,
+				3EAA521D27B2531500D33B69 /* CategoryDetailCell.swift in Sources */,
+				3E7A9F7D27B21317004FB01D /* HyeMarketTabBarController.swift in Sources */,
+				3EAA521927B24E5E00D33B69 /* HyeImageView.swift in Sources */,
 				3E7A9F6D27B20E7B004FB01D /* ViewController.swift in Sources */,
+				3E7A9F8627B2180E004FB01D /* CategoryCell.swift in Sources */,
+				3EAA521B27B2520500D33B69 /* CategoryDetailsVC.swift in Sources */,
+				3EAA521F27B2593700D33B69 /* Item.swift in Sources */,
 				3E7A9F6927B20E7B004FB01D /* AppDelegate.swift in Sources */,
 				3E7A9F6B27B20E7B004FB01D /* SceneDelegate.swift in Sources */,
+				3E7A9F7F27B21392004FB01D /* CategoriesVC.swift in Sources */,
+				3E7A9F8827B21B0A004FB01D /* HyeLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +448,7 @@
 		};
 		3E7A9F7A27B20E81004FB01D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4B2BD12AD0F0D7FAB4051A /* Pods-HyeMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aws.HyeMarket;
+				PRODUCT_BUNDLE_IDENTIFIER = ggtech.HyeMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,6 +477,7 @@
 		};
 		3E7A9F7B27B20E81004FB01D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A5B8AC75A7893CEC6F8948 /* Pods-HyeMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aws.HyeMarket;
+				PRODUCT_BUNDLE_IDENTIFIER = ggtech.HyeMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
